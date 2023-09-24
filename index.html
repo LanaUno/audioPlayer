@@ -12,29 +12,32 @@
 </head>
 <body>
     <div class="wrapper">
-        <!-- <img src="./img/cover1.png" alt="img1" class="img1"> -->
+        <img src="./img/cover1.png" alt="img1" class="cover-img">
+        <!-- <img src="./img/cover2.png" alt="img2" class="img2 cover-img"> -->
         <div class="player">
             <div class="cover"><img src="./img/cover1.png" alt="img1" class="img1"></div>
             <div class="buttons">
-                <div class=" btn play"><img src="./svg/play.png" width="50" height="50" alt="play" class="play-pause"></div>
-                <div class="btn stop"><img src="./svg/pause.png" width="50" height="50" alt="pause"></div>
-                <div class="singer-song1">
-                    <div class="singer">Beyonce</div>
-                    <div class="song">Don't Hurt Yourself</div>
+                <div class="all-buttons">
+                    <div class="btn play"><img src="./svg/play.png" width="50" height="50" alt="play" class="play-pause"></div>
+                    <div class="btn stop"><img src="./svg/pause.png" width="50" height="50" alt="pause"></div>
+                    <div class="singer-song1">
+                        <div class="singer">Beyonce</div>
+                        <div class="song">Don't Hurt Yourself</div>
+                    </div>
+                    <div class="singer-song2">
+                        <div class="singer">Dua Lipa</div>
+                        <div class="song">Don't Start Now</div>
+                    </div>
+                    <div class="prev-next">
+                        <div class="btn prev"><img src="./svg/backward.png" width="30" height="30" alt="back"></div>
+                        <div class="btn next"><img src="./svg/forward.png" width="30" height="30" alt="frw"></div>
+                    </div>
                 </div>
-                <div class="singer-song2">
-                    <div class="singer">Dua Lipa</div>
-                    <div class="song">Don't Start Now</div>
-                </div>
-                <div class="prev-next">
-                    <div class="btn prev"><img src="./svg/backward.png" width="30" height="30" alt="back"></div>
-                    <div class="btn next"><img src="./svg/forward.png" width="30" height="30" alt="frw"></div>
-                </div> 
+                <div class="duration-time">0:00</div>
                 <div class="progress-container">
-                    <div class="duration-time">4.00</div>
-                    <input type="range" class="progress" min="0" max="" value="0" />
-                    <div class="current-time">0.35</div>
-                </div> 
+                    <input type="range" class="progress" min="0" max="" value="300%"/>
+                </div>
+                <div class="current-time">0:00</div>  
             </div> 
             <audio class="audio" src="./audio/Don't Hurt Yourself.mp3"></audio>  
         </div>
