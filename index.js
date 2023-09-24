@@ -99,4 +99,7 @@ function setProgress(e) {
 }
 
 progressContainer.addEventListener('click', setProgress)
+
+//Autoplay
+audio.addEventListener('ended', nextSong)
 })
