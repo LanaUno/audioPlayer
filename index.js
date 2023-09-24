@@ -13,7 +13,7 @@ const progress = document.querySelector('.progress')
 const bigCover = document.querySelector('.cover-img')
 const durationTime = document.querySelector('.duration-time');
 const current = document.querySelector('.current-time')
-const progressContainer = document.querySelector('progress-container')
+const progressContainer = document.querySelector('.progress-container')
 //Названия песен
 const songs = ['Don\'t Hurt Yourself', 'Don\'t Start Now'];
 const singers = ['Beyonce', 'Dua Lipa']

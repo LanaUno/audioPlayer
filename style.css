@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     /* box-sizing: border-box; */
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .wrapper{
     /* background-image: url(./img/cover1.png);
@@ -124,10 +124,11 @@
     z-index: 4;
     height: 5px;
     background: #000000;
-    width: 160pt;
+    width: 160px;
     /* bottom: 6%; */
     border-radius: 30px;
     /* left: 17%; */
+    cursor: pointer;
 }
 
 
@@ -166,6 +167,7 @@
     bottom: 6%;
     border-radius: 30px;
     left: 17%;
+    cursor: pointer;
 }
 .progress::-webkit-slider-thumb {
     -webkit-appearance: none;
@@ -189,3 +191,61 @@
   .progress:focus {
     outline: none;
   }
+  .footer-links{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 100% */
+    letter-spacing: 1px;
+    margin: -2px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+}
+/* @media(max-width: 734px){
+    .footer-links{
+        font-size: 15px;
+    }
+} */
+.footer-rss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.RSS-link{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 151px;
+}
+.RSS-link:hover{
+    text-decoration: underline;
+}
+/* @media(min-width:767px)and (max-width:1024px){
+.RSS-link{
+    margin-left: 97px;
+}
+}
+@media(max-width:767px){
+    .RSS-link {
+        margin-left: 97px;
+    }
+} */
+.github-link{
+    text-decoration: none;
+    color: #FFF;
+}
+.github-link:hover{
+    text-decoration: underline;
+}
+.footer-logo{
+    width: 70px;
+    height: 30px;
+}
